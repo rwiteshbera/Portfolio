@@ -7,16 +7,17 @@ import {
   Flex,
   Spacer,
   Box,
+  Image
 } from '@chakra-ui/react';
+import RBLogo from "../images/rb.png"
+import "./Header.css"
 
 const Header = () => {
   return (
     <>
       <VStack>
         <Flex w="100%" p="4">
-          <Heading ml="8" size="md" fontWeight="semibold" fontSize="2xl" color="orangered">
-            RB
-          </Heading>
+          <Image src={RBLogo} className="myLogo"></Image>
           <Spacer w="60vw"/>
           <Spacer />
           <HStack>

@@ -1,6 +1,7 @@
 import { Box, Container, Flex, Image } from '@chakra-ui/react'
 import React from 'react'
 import profilePic from "../images/profile-pic.png"
+import Socials from '../socials/Socials'
 import About from './About/About'
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
              </Box>
             </Container>
             <Container>
-              <About />
+              <About/>
+              <Socials/>
             </Container>
         </Flex>
     </>
