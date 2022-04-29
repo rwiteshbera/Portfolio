@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+#name {
+  color: orangered;
+}
+
+.aboutMe {
+  text-indent: 1ch;
+}
+
+.aboutMe p {
+  text-indent: 5ch;
+  font-family: 'Open Sans', sans-serif;
+}
