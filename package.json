@@ -10,6 +10,7 @@
     "@testing-library/react": "^10.4.9",
     "@testing-library/user-event": "^12.8.3",
     "framer-motion": "^4.1.17",
+    "github-calendar": "^2.2.9",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^3.11.0",

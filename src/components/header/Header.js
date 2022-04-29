@@ -2,11 +2,9 @@ import React from 'react';
 import {
   HStack,
   Button,
-  Heading,
   VStack,
   Flex,
   Spacer,
-  Box,
   Image
 } from '@chakra-ui/react';
 import RBLogo from "../images/rb.png"
@@ -17,12 +15,14 @@ const Header = () => {
     <>
       <VStack>
         <Flex w="100%" p="4">
-          <Image src={RBLogo} className="myLogo"></Image>
+          <Image boxSize="20" borderRadius="full" src={RBLogo}  className="myLogo"></Image>
           <Spacer w="60vw"/>
           <Spacer />
           <HStack>
-            <Button colorScheme="pink">blogs</Button>
-            <Button colorScheme="pink">resume</Button>
+            <Button colorScheme="pink">Projects</Button>
+            <Button colorScheme="pink">Blogs</Button>
+            <Button colorScheme="pink">Resume</Button>
+            <Button colorScheme="pink">Contact</Button>
           </HStack>
         </Flex>
       </VStack>
