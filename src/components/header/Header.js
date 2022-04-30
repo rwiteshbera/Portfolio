@@ -13,11 +13,15 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const Reload = () => {
+    window.location.reload();
+  }
+
   return (
     <>
       <VStack>
         <Flex w="100%" p="4">
-          <Image
+          <Image onClick={Reload}
             boxSize="20"
             borderRadius="full"
             src={RBLogo}

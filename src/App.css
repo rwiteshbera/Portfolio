@@ -7,3 +7,8 @@
     background-size: cover;
     color: white;
 }
+
+body{
+    overflow-x:hidden;
+    overflow-y: auto;
+}

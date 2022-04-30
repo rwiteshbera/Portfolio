@@ -1,10 +1,12 @@
 import { GridItem, Text, Grid, Box, Center, Link } from '@chakra-ui/react';
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import "./projects.css";
 
 const Projects = () => {
   return (
     <>
+      <div className="projects">
       <Text fontSize="2xl" fontWeight="semibold" textAlign="center">
         Projects
       </Text>
@@ -47,6 +49,7 @@ const Projects = () => {
           </Link>
         </Grid>
       </Center>
+      </div>
     </>
   );
 };
