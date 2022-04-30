@@ -1,15 +1,17 @@
-import { Box, Grid, Text, GridItem, Image } from '@chakra-ui/react';
+import { Box, Grid, Text, GridItem, Image, Center } from '@chakra-ui/react';
 import React from 'react';
+import "./skills.css"
 
 const Skills = () => {
   return (
     <>
       <Box pt="16">
-        <Text fontSize="3xl" fontWeight="semibold" textAlign="center" mb={16}>
+        <Text fontSize={['1xl', '2xl', '3xl']} fontWeight="semibold" textAlign="center" mb={16}>
           Tools and Technologies
         </Text>
 
-        <Grid templateColumns="repeat(6, 1fr)" gap='16' m="10">
+        <Center>
+        <Grid className="skills_grid">
           <GridItem textAlign="center">
             <Image
               w="16" mb="2"
@@ -116,6 +118,7 @@ const Skills = () => {
             <Text>Heroku</Text>
           </GridItem>
         </Grid>
+        </Center>
       </Box>
       <Box height="10rem"></Box>
     </>

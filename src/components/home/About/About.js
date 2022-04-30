@@ -5,14 +5,14 @@ import './About.css';
 const About = () => {
   return (
     <>
-      <Box ml="-28" mt="8">
-        <Heading size="3xl" mt="8" color="orangered">
+      <Box ml="-28" mr="22" mt="8">
+        <Heading size="3xl" mt="8" color="orangered" textAlign="center">
           Rwitesh Bera
         </Heading>
-        <Heading size="lg" color="whiteAlpha.700" mt="2">
+        <Heading size="lg" color="whiteAlpha.700" mt="2" textAlign="center">
           Full Stack Developer
         </Heading>
-        <Box color="white" className="aboutMe" ml="-3" fontSize="lg" pt="4">
+        <Box color="white" className="aboutMe" ml="-3" fontSize="lg" pt="4" textAlign="justify">
           <p>
             Hi, There! I'm <span id="name">Rwitesh Bera.</span> A Full Stack
             Developer. I am pursuing B.Tech. in Computer Science and Engineering

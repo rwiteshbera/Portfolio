@@ -9,13 +9,13 @@ import Skills from './ToolsTech/Skills'
 const Home = () => {
   return (
     <>
-        <Flex w="100%">
-            <Container>
+        <Flex w="100vw" flexWrap="wrap">
+            <Container >
              <Box boxSize='sm' m="16">
              <Image src={profilePic} alt='Rwitesh Bera'/>
              </Box>
             </Container>
-            <Container>
+            <Container ml="10rem">
               <About/>
               <Socials/>
             </Container>

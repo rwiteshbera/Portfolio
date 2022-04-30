@@ -5,7 +5,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 const Socials = () => {
   return (
     <>
-      <HStack mt="8" ml="-12">
+      <HStack mt="8" ml="8">
         <Link href="https://www.linkedin.com/in/rwitesh-bera/" isExternal>
           <IconButton
             icon={<FaLinkedinIn />}
