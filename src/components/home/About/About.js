@@ -12,7 +12,7 @@ const About = () => {
         <Heading size="lg" color="whiteAlpha.700" mt="2">
           Full Stack Developer
         </Heading>
-        <Text color="white" className="aboutMe" ml="-3" fontSize="lg" pt="4">
+        <Box color="white" className="aboutMe" ml="-3" fontSize="lg" pt="4">
           <p>
             Hi, There! I'm <span id="name">Rwitesh Bera.</span> A Full Stack
             Developer. I am pursuing B.Tech. in Computer Science and Engineering
@@ -31,7 +31,7 @@ const About = () => {
           </p>
           <br />
           <p>Check out the social links below to connect.</p>
-        </Text>
+        </Box>
       </Box>
     </>
   );
