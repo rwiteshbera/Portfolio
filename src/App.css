@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(31, 31, 31);
-    background-size: cover;
     color: white;
 }
 
 body{
     overflow-x:hidden;
+    background-color: rgb(31, 31, 31) !important;
+    background-size: cover m !important;
 }
