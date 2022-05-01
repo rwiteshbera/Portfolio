@@ -41,7 +41,7 @@ const Header = () => {
               <Button colorScheme="pink">Blogs</Button>
             </LinkChakra>
             <Button colorScheme="pink">Resume</Button>
-            <Button colorScheme="pink">Contact</Button>
+            <Link to="/contact"><Button colorScheme="pink">Contact</Button></Link>
           </HStack>
         </Flex>
       </VStack>

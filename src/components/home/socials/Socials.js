@@ -1,6 +1,7 @@
 import React from 'react';
 import { HStack, IconButton, Link } from '@chakra-ui/react';
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import "./Socials.css";
 
 const Socials = () => {
   return (

@@ -1,14 +1,14 @@
 #title {
-    color: rgb(243,82,36);
+  color: rgb(243, 82, 36);
 }
 
 .myLogo:hover {
-    animation: spin 2s linear infinite;
-    cursor: pointer;
+  animation: spin 2s linear infinite;
+  cursor: pointer;
 }
 
 @keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }

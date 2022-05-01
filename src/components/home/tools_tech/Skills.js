@@ -1,6 +1,6 @@
 import { Box, Grid, Text, GridItem, Image, Center } from '@chakra-ui/react';
 import React from 'react';
-import "./skills.css"
+import "./Skills.css"
 
 const Skills = () => {
   return (
