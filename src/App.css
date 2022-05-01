@@ -5,8 +5,5 @@
     background-color: rgb(31, 31, 31);
     background-size: cover;
     color: white;
-}
-
-body{
     overflow-x:hidden;
 }
