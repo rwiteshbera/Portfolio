@@ -12,3 +12,85 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 0px) {
+  .button_list {
+    display: none;
+  }
+
+  .mobile_menu {
+    margin-right: 5px;
+  }
+
+  .spacer{
+    width: 50vw;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .button_list {
+    display: none;
+  }
+
+  .mobile_menu {
+    margin-right: 5px;
+  }
+
+  .spacer{
+    width: 50vw;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .button_list {
+    display: none;
+  }
+
+  .mobile_menu {
+    margin-right: 5px;
+  }
+
+  .spacer{
+    width: 80vw;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .button_list {
+    display: none;
+  }
+
+  .mobile_menu {
+    margin-right: 5px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .mobile_menu {
+    margin-right: 5px;
+  }
+
+  .spacer {
+    width: 85vw;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .mobile_menu {
+    display: none;
+  }
+  .button_list {
+    display: block;
+  }
+
+  .spacer {
+    width: 60vw;
+  }
+}
