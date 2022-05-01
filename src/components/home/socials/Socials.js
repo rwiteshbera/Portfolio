@@ -6,7 +6,7 @@ import "./Socials.css";
 const Socials = () => {
   return (
     <>
-      <HStack mt="8" ml="8">
+      <HStack ml="8">
         <Link href="https://www.linkedin.com/in/rwitesh-bera/" isExternal>
           <IconButton
             icon={<FaLinkedinIn />}
