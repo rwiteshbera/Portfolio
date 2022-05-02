@@ -2,10 +2,6 @@ import React from 'react';
 import {
   HStack,
   Button,
-  VStack,
-  Flex,
-  Spacer,
-  Image,
   Link as LinkChakra,
 } from '@chakra-ui/react';
 

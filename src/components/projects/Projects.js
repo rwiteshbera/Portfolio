@@ -7,9 +7,9 @@ const Projects = () => {
   return (
     <>
       <div className="projects">
-        <Text fontSize="2xl" fontWeight="semibold" textAlign="center">
+        <Text fontSize="2xl" fontWeight="semibold" textAlign="center" color="white">
           Projects
-        </Text>
+        </Text>"center"
         <Center w="100vw">
           <Grid className='projects_grid' m="10">
             <Link href="https://github.com/rwiteshbera/Wordle-Clone" isExternal>

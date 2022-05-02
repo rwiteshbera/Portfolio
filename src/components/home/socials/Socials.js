@@ -1,12 +1,12 @@
 import React from 'react';
-import { HStack, IconButton, Link } from '@chakra-ui/react';
+import { Flex, IconButton, Link } from '@chakra-ui/react';
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import "./Socials.css";
 
 const Socials = () => {
   return (
     <>
-      <HStack ml="8">
+      <Flex justify={["center","center","center","left"]} gap={['2','3','4','4']}>
         <Link href="https://www.linkedin.com/in/rwitesh-bera/" isExternal>
           <IconButton
             icon={<FaLinkedinIn />}
@@ -39,7 +39,7 @@ const Socials = () => {
             color="white"
           ></IconButton>
         </Link>
-      </HStack>
+      </Flex>
     </>
   );
 };

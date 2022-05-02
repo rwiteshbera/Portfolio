@@ -15,7 +15,7 @@ import { GrSend } from 'react-icons/gr';
 const Contact = () => {
   return (
     <>
-      <Box>
+      <Box color="white">
         <Text
           fontSize={['1xl', '2xl', '4xl']}
           textAlign="center"
@@ -26,7 +26,12 @@ const Contact = () => {
         </Text>
         <form m="2">
           <FormControl isRequired mb="2">
-            <Input id="name" placeholder="Name" autoComplete="off" w={["74vw","70vw","60vw","50vw"]}/>
+            <Input
+              id="name"
+              placeholder="Name"
+              autoComplete="off"
+              w={['74vw', '70vw', '60vw', '50vw']}
+            />
           </FormControl>
           <FormControl isRequired mb="2">
             <Input
@@ -34,7 +39,7 @@ const Contact = () => {
               type="email"
               placeholder="Email"
               autoComplete="off"
-              w={["74vw","70vw","60vw","50vw"]}
+              w={['74vw', '70vw', '60vw', '50vw']}
             />
           </FormControl>
           <FormControl isRequired mb="2">
@@ -42,8 +47,8 @@ const Contact = () => {
               id="message"
               placeholder="Message"
               autoComplete="off"
-              w={["74vw","70vw","60vw","50vw"]}
-              h={["40vmin","44vmin","48vmin","48vmin"]}
+              w={['74vw', '70vw', '60vw', '50vw']}
+              h={['40vmin', '44vmin', '48vmin', '48vmin']}
             />
           </FormControl>
 

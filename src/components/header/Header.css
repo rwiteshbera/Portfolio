@@ -7,6 +7,15 @@
   cursor: pointer;
 }
 
+/* Animation for smaller screen  */
+@media only screen and (max-width: 768px) {
+  .myLogo {
+    animation: spin 2s linear infinite;
+    cursor: pointer;
+  }
+}
+
+
 @keyframes spin {
   100% {
     transform: rotate(360deg);
@@ -26,6 +35,7 @@
   .spacer{
     width: 50vw;
   }
+
 }
 
 /* Custom, iPhone Retina */
@@ -41,6 +51,7 @@
   .spacer{
     width: 50vw;
   }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -67,7 +78,6 @@
   .mobile_menu {
     margin-right: 5px;
   }
-
 }
 
 /* Medium Devices, Desktops */
