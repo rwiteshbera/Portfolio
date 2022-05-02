@@ -3,6 +3,13 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import './projects.css';
 
+
+// Project Images 
+import yearnQuest_Img from "./Project_Images/yearnquest.jpg";
+import worldClone_Img from "./Project_Images/worldclone.jpg";
+import cureConnect_Img from "./Project_Images/cureconnect.jpg";
+import miniUrl_Img from "./Project_Images/miniurl.jpg";
+
 const Projects = () => {
   return (
     <>
@@ -15,7 +22,7 @@ const Projects = () => {
             <Link href="https://github.com/rwiteshbera/Wordle-Clone" isExternal>
               <GridItem>
                 <ProjectCard
-                  imgSrc="https://user-images.githubusercontent.com/73098407/166095764-dbcf1c7f-6859-4237-a299-5382c55540c9.png"
+                  imgSrc={worldClone_Img}
                   name="Wordle Clone"
                 />
               </GridItem>
@@ -24,7 +31,7 @@ const Projects = () => {
             <Link href="https://github.com/rwiteshbera/YearnQuest" isExternal>
               <GridItem>
                 <ProjectCard
-                  imgSrc="https://raw.githubusercontent.com/rwiteshbera/YearnQuest/master/public/images/homePage.png"
+                  imgSrc={yearnQuest_Img}
                   name="YearnQuest"
                 />
               </GridItem>
@@ -36,7 +43,7 @@ const Projects = () => {
             >
               <GridItem>
                 <ProjectCard
-                  imgSrc="https://user-images.githubusercontent.com/73098407/153747544-809dd691-f3ed-4557-bffd-d44804fc358e.jpeg"
+                  imgSrc={cureConnect_Img}
                   name="CureConnect"
                 />
               </GridItem>
@@ -47,7 +54,7 @@ const Projects = () => {
             >
               <GridItem>
                 <ProjectCard
-                  imgSrc="https://user-images.githubusercontent.com/73098407/159175710-55a5e276-e14a-458f-afca-92f11cd2c13d.png"
+                  imgSrc={miniUrl_Img}
                   name="URL Shortener"
                 />
               </GridItem>

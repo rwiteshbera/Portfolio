@@ -6,6 +6,7 @@ import About from './about/About';
 import Graph from './github_graph/Graph';
 import Skills from './tools_tech/Skills';
 
+
 const Home = () => {
   return (
     <>

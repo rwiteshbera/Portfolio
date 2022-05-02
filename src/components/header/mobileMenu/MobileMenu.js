@@ -20,7 +20,7 @@ const MobileMenu = () => {
           icon={<GiHamburgerMenu />}
           aria-label="Options"
           variant="outline"
-          bg="brand.200"
+          bg="white"
           _hover={{
             background: 'black',
             color: 'white',

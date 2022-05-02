@@ -43,11 +43,9 @@
   .button_list {
     display: none;
   }
-
   .mobile_menu {
     margin-right: 5px;
   }
-
   .spacer{
     width: 50vw;
   }
@@ -59,11 +57,9 @@
   .button_list {
     display: none;
   }
-
   .mobile_menu {
     margin-right: 5px;
   }
-
   .spacer{
     width: 80vw;
   }
@@ -74,7 +70,6 @@
   .button_list {
     display: none;
   }
-
   .mobile_menu {
     margin-right: 5px;
   }
@@ -85,7 +80,6 @@
   .mobile_menu {
     margin-right: 5px;
   }
-
   .spacer {
     width: 85vw;
   }
@@ -99,7 +93,6 @@
   .button_list {
     display: block;
   }
-
   .spacer {
     width: 60vw;
   }

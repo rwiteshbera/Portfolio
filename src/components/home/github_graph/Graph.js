@@ -20,6 +20,7 @@ const Graph = () => {
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
           fontWeight="semibold"
           color="white"
+          mt="5"
         >
           GitHub Contributions Calendar{' '}
         </Text>
