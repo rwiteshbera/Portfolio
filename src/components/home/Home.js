@@ -16,6 +16,7 @@ const Home = () => {
               src={profilePic}
               alt="Rwitesh Bera"
               w={['80vw', '85vw', '90vw', '40vw']}
+              ml={["2","3","4","4"]}
             />
           </Box>
         </Container>
