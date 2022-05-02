@@ -5,14 +5,14 @@ import './About.css';
 const About = () => {
   return (
     <>
-      <Box p="4" className='aboutContainer'>
-        <Heading fontSize={["2rem","2.4rem","3rem","4rem"]} color="orangered" textAlign="center">
+      <Box p={["3","4","4","4"]} mb="4" className='aboutContainer'>
+        <Heading fontSize={["2rem","2.4rem","2.6rem","2.8rem"]} color="orangered" textAlign={["center","center","center", 'left']}>
           Rwitesh Bera
         </Heading>
-        <Heading fontSize={["1rem","1.2rem","1.8rem","2rem"]}color="whiteAlpha.700" mt="1" textAlign="center">
+        <Heading fontSize={["1rem","1.2rem","1.4rem","1.6rem"]}color="whiteAlpha.700" mt="1" textAlign={["center","center","center", 'left']}>
           Full Stack Developer
         </Heading>
-        <Box color="white" className="aboutMe" ml={["0.5","0.5","-0.5","-20"]} fontSize={["sm","md","lg"]} pt="2" textAlign="justify">
+        <Box color="white" className="aboutMe" ml={["0.5","0.5","-0.5","-20"]} fontSize={["sm","md","lg"]} pt={["2","2","3","4"]} textAlign="justify">
           <p>
             Hi, There! I'm <span id="name">Rwitesh Bera.</span> A Full Stack
             Developer. I am pursuing B.Tech. in Computer Science and Engineering

@@ -25,10 +25,11 @@ const Header = () => {
         <Flex w="100%">
           <Image
             onClick={Reload}
-            boxSize="20"
+            boxSize={["10","12","14","16"]}
             borderRadius="full"
             src={RBLogo}
             className="myLogo"
+            mt={['4','4','4','3']}
           ></Image>
           <span className="spacer"></span>
           <MobileMenu/>
