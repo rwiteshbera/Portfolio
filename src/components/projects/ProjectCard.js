@@ -5,7 +5,7 @@ import './ProjectCard.css';
 const ProjectCard = props => {
   return (
     <>
-      <VStack className="project_card" gap="1">
+      <VStack className="project_card" gap="1" color="white">
         <Image src={props.imgSrc} id="image" />
         <Box
           className="description"
