@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChakraProvider, VStack, theme} from '@chakra-ui/react';
+import { ChakraProvider, VStack} from '@chakra-ui/react';
 import Header from './components/header/Header';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -9,10 +9,12 @@ import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 
+import {theme} from "./Theme";
+
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <VStack>
+      <VStack bg="brand.100">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -7,6 +7,6 @@
 body{
     color: white;
     overflow-x:hidden;
-    background-color: rgb(31, 31, 31) !important;
-    background-size: cover m !important;
+    /* background-color: rgb(31, 31, 31) !important;
+    background-size: cover m !important; */
 }

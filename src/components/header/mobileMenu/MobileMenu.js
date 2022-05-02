@@ -20,22 +20,33 @@ const MobileMenu = () => {
           icon={<GiHamburgerMenu />}
           aria-label="Options"
           variant="outline"
+          bg="brand.200"
+          _hover={{
+            background: 'black',
+            color: 'white',
+            border: '2px solid white',
+          }}
+          _active={{
+            background: 'black',
+            color: 'white',
+            border: '2px solid white',
+          }}
         />
-        <MenuList>
+        <MenuList bg="brand.100" color="white" >
           <Link to="/">
-            <MenuItem>Home</MenuItem>
+            <MenuItem _focus={{bg:"whitesmoke", color:"black"}} _hover={{bg:"whitesmoke", color:"black"}}>Home</MenuItem>
           </Link>
           <Link to="/projects">
-            <MenuItem>Projects</MenuItem>
+            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}> Projects</MenuItem>
           </Link>
           <LinkChakra href="https://rwiteshbera.me/" isExternal>
-            <MenuItem>Blogs</MenuItem>
+            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Blogs</MenuItem>
           </LinkChakra>
           <Link to="">
-            <MenuItem>Resume</MenuItem>
+            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Resume</MenuItem>
           </Link>
           <Link to="/contact">
-            <MenuItem>Contact</MenuItem>
+            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Contact</MenuItem>
           </Link>
         </MenuList>
       </Menu>

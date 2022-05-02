@@ -15,7 +15,7 @@ import { GrSend } from 'react-icons/gr';
 const Contact = () => {
   return (
     <>
-      <Box color="white">
+      <Box color="white" height="100vh">
         <Text
           fontSize={['1xl', '2xl', '4xl']}
           textAlign="center"
