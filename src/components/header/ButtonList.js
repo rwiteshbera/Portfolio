@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const ButtonList = () => {
   return (
     <div className='button_list'>
-      <HStack>
+      <HStack pt="2" mr="2">
       <Link to="/">
         <Button colorScheme="pink">Home</Button>
       </Link>

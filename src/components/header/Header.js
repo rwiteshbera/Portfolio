@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       <VStack>
-        <Flex w="100%" p="4">
+        <Flex w="100%">
           <Image
             onClick={Reload}
             boxSize="20"

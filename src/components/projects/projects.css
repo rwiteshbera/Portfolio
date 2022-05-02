@@ -1,0 +1,52 @@
+.projects_grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+  
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width: 319px) {
+        .projects_grid {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.2rem;
+          }
+      }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width: 320px) {
+    .projects_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.2rem;
+      }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 480px) {
+    .projects_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.2rem;
+      }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    .projects_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+      }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    .projects_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+      }
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width: 1200px) {
+    .projects_grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+      }
+  }
