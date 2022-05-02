@@ -26,7 +26,7 @@ const Contact = () => {
         </Text>
         <form m="2">
           <FormControl isRequired mb="2">
-            <Input id="name" placeholder="Name" autoComplete="off" />
+            <Input id="name" placeholder="Name" autoComplete="off" w={["74vw","70vw","60vw","50vw"]}/>
           </FormControl>
           <FormControl isRequired mb="2">
             <Input
@@ -34,6 +34,7 @@ const Contact = () => {
               type="email"
               placeholder="Email"
               autoComplete="off"
+              w={["74vw","70vw","60vw","50vw"]}
             />
           </FormControl>
           <FormControl isRequired mb="2">
@@ -41,8 +42,8 @@ const Contact = () => {
               id="message"
               placeholder="Message"
               autoComplete="off"
-              w="40vw"
-              h="40vh"
+              w={["74vw","70vw","60vw","50vw"]}
+              h={["40vmin","44vmin","48vmin","48vmin"]}
             />
           </FormControl>
 
