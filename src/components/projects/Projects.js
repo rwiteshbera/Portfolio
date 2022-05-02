@@ -11,7 +11,7 @@ const Projects = () => {
           Projects
         </Text>
         <Center w="100vw">
-          <Grid templateColumns="repeat(3, 1fr)" gap="16" m="10">
+          <Grid className='projects_grid' m="10">
             <Link href="https://github.com/rwiteshbera/Wordle-Clone" isExternal>
               <GridItem>
                 <ProjectCard

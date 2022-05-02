@@ -1,1 +1,35 @@
 
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    .mobile_menu{
+        margin-top: 1rem;
+    }
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 480px) {
+    .mobile_menu{
+        margin-top: 1rem;
+    }
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    .mobile_menu{
+        margin-top: 1rem;
+    }
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    .mobile_menu{
+        margin-top: 1.5rem;
+    }
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width: 1200px) {
+    .mobile_menu{
+        margin-top: 1.5rem;
+    }
+  }
