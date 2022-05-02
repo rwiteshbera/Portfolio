@@ -19,6 +19,7 @@ const Graph = () => {
           textAlign="center"
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
           fontWeight="semibold"
+          color="white"
         >
           GitHub Contributions Calendar{' '}
         </Text>

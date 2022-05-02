@@ -5,7 +5,7 @@ import './Skills.css';
 const Skills = () => {
   return (
     <>
-      <Box pt="16">
+      <Box pt="16" color="white" className="tech-container">
         <Text
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
           fontWeight="semibold"
