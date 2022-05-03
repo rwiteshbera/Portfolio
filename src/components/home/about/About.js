@@ -43,7 +43,7 @@ const About = () => {
           <p>
             I love music. All of my music consumption is meticulously catalogued
             on Spotify and I maintain a Spotify playlist. I'm also into gaming
-            and photography. I share my photography on Instagram.
+            and photography. I share my photographs on Instagram.
           </p>
           <br />
           <p>Check out the social links below to connect.</p>

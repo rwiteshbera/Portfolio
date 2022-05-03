@@ -3,6 +3,9 @@ import React from 'react';
 import './Skills.css';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
+
+import etherjs_img from "./ethersjs.svg";
+
 const Skills = () => {
   return (
     <>
@@ -77,6 +80,22 @@ const Skills = () => {
             </GridItem>
             <GridItem>
               <Image id='skills_grid_item'
+               w={["10","12","14","16"]}
+                mb="2"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/2048px-Socket-io.svg.png"
+              />
+              <Text>Socket.IO</Text>
+            </GridItem>
+            <GridItem>
+              <Image id='skills_grid_item'
+                w={["10","12","14","16"]}
+                mb="2"
+                src={etherjs_img}
+              />
+              <Text pt={["4","4","6","6"]}>Ethers.js</Text>
+            </GridItem>
+            <GridItem>
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -109,11 +128,19 @@ const Skills = () => {
             </GridItem>
             <GridItem>
               <Image id='skills_grid_item'
+               w={["10","12","14","16"]}
+                mb="2"
+                src="https://avatars.githubusercontent.com/u/54212428?s=280&v=4"
+              />
+              <Text>Chakra UI</Text>
+            </GridItem>
+            <GridItem>
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
               />
-              <Text>Git</Text>
+              <Text ml="2">Git</Text>
             </GridItem>
             <GridItem>
               <Image id='skills_grid_item'
