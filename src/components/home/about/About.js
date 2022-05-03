@@ -2,10 +2,11 @@ import { Box, Heading } from '@chakra-ui/react';
 import React from 'react';
 import './About.css';
 import 'animate.css';
-
 import AnimativeName from './AnimativeText/AnimativeName';
 
 const About = () => {
+
+
   return (
     <>
       <Box p={['3', '4', '4', '4']} mb="4" className="aboutContainer">
@@ -15,7 +16,8 @@ const About = () => {
           color="whiteAlpha.700"
           mt="1"
           textAlign={['center', 'center', 'center', 'left']}
-          className="fullstackdeveloper lightSpeedInRight"
+          className="fullstackdeveloper"
+          id='typing'
         >
           Full Stack Developer
         </Heading>
