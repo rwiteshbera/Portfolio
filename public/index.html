@@ -6,9 +6,27 @@
     <link rel="shortcut icon" href="./rb.png" type="image/x-icon">
     <title>Rwitesh Bera</title>
   </head>
+
   <body>
     <div id="root"></div>
   </body>
+
+ 
+  <!-- On Click Animation Effect on 'Rwitesh Bera' -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+  </script>
+
+  
+  <script>
+    $(document).ready(function(){
+  $('#text-drop').mouseleave(function(){
+    $(this).removeClass('clicked');
+  }).click(function(){
+    $(this).addClass('clicked').html($(this).html());
+  });
+});
+  </script>
+
 
   <!-- chatwoot widget Script  -->
   <script>

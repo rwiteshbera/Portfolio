@@ -26,7 +26,7 @@ const Home = () => {
           <Socials />
         </Container>
       </Flex>
-      <Graph />
+      <Graph/>
       <Skills />
     </>
   );

@@ -1,10 +1,12 @@
 import { Box, Grid, Text, GridItem, Image, Center } from '@chakra-ui/react';
 import React from 'react';
 import './Skills.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Skills = () => {
   return (
     <>
+      <AnimationOnScroll animateIn="animate__slideInUp" duration="2" animateOnce animatePreScroll="false">
       <Box pt="16" color="white" className="tech-container">
         <Text
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
@@ -18,7 +20,7 @@ const Skills = () => {
         <Center>
           <Grid className="skills_grid" ml="2">
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
@@ -26,7 +28,7 @@ const Skills = () => {
               <Text>Java</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -34,7 +36,7 @@ const Skills = () => {
               <Text>JavaScript</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-plain.svg"
@@ -42,7 +44,7 @@ const Skills = () => {
               <Text>Solidity</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -50,7 +52,7 @@ const Skills = () => {
               <Text>React</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -58,7 +60,7 @@ const Skills = () => {
               <Text>NodeJs</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
@@ -66,7 +68,7 @@ const Skills = () => {
               <Text>ExpressJs</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
@@ -74,7 +76,7 @@ const Skills = () => {
               <Text>MongoDB</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -82,7 +84,7 @@ const Skills = () => {
               <Text>HTML5</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -90,7 +92,7 @@ const Skills = () => {
               <Text>CSS3</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
@@ -98,7 +100,7 @@ const Skills = () => {
               <Text>SASS</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
@@ -106,7 +108,7 @@ const Skills = () => {
               <Text>Bootstrap</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
@@ -114,7 +116,7 @@ const Skills = () => {
               <Text>Git</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
@@ -122,7 +124,7 @@ const Skills = () => {
               <Text>Docker</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
@@ -130,7 +132,7 @@ const Skills = () => {
               <Text>Linux</Text>
             </GridItem>
             <GridItem>
-              <Image
+              <Image id='skills_grid_item'
                 w={["10","12","14","16"]}
                 mb="2"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
@@ -141,6 +143,7 @@ const Skills = () => {
         </Center>
       </Box>
       <Box height="10rem"></Box>
+      </AnimationOnScroll>
     </>
   );
 };
