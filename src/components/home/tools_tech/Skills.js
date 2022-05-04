@@ -1,15 +1,12 @@
 import { Box, Grid, Text, GridItem, Image, Center } from '@chakra-ui/react';
 import React from 'react';
 import './Skills.css';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
-
 
 import etherjs_img from "./ethersjs.svg";
 
 const Skills = () => {
   return (
     <>
-      <AnimationOnScroll animateIn="animate__slideInUp" duration="2" animateOnce animatePreScroll="false">
       <Box pt="16" color="white" className="tech-container">
         <Text
           fontSize={['1.2rem', '1.4rem', '1.6rem', '2rem']}
@@ -170,7 +167,6 @@ const Skills = () => {
         </Center>
       </Box>
       <Box height="10rem"></Box>
-      </AnimationOnScroll>
     </>
   );
 };

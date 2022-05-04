@@ -4,7 +4,7 @@ import 'github-calendar/dist/github-calendar-responsive.css';
 import 'github-calendar/dist/github-calendar.min.js';
 import { Text } from '@chakra-ui/react';
 import './Graph.css';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 
 const Graph = () => {
   useEffect(() => {
@@ -15,7 +15,6 @@ const Graph = () => {
   }, []);
   return (
     <>
-      <AnimationOnScroll animateIn="animate__slideInUp" duration="2" animateOnce animatePreScroll="false">
       <div className="contribution-graph" id='github-graph'>
         <Text
           textAlign="center"
@@ -28,7 +27,6 @@ const Graph = () => {
         </Text>
         <div className="calendar" w="100vw"></div>
       </div>
-      </AnimationOnScroll>
     </>
   );
 };
