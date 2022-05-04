@@ -1,7 +1,3 @@
-.projects{
-  height: 100vh;
-}
-
 .projects_grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
