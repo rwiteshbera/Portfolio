@@ -5,6 +5,7 @@ import Socials from './socials/Socials';
 import About from './about/About';
 import Graph from './github_graph/Graph';
 import Skills from './tools_tech/Skills';
+import Footer from '../footer/Footer';
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       </Flex>
       <Graph/>
       <Skills />
+      <Footer/>
     </>
   );
 };
