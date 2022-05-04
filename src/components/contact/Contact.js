@@ -36,7 +36,7 @@ const Contact = () => {
     if(validator.isEmpty(FullName)) {
       toast({
           title: 'Please enter your full name.',
-          status: 'success',
+          status: 'warning',
           duration: 7000,
           isClosable: true,
         });
@@ -44,7 +44,7 @@ const Contact = () => {
     if(validator.isEmpty(EmailId)) {
       toast({
           title: 'Please enter your email.',
-          status: 'success',
+          status: 'warning',
           duration: 5000,
           isClosable: true,
         });
@@ -52,7 +52,7 @@ const Contact = () => {
     if(!validator.isEmail(EmailId)) {
       toast({
           title: 'Please enter correct email',
-          status: 'success',
+          status: 'warning',
           duration: 5000,
           isClosable: true,
         });
@@ -61,7 +61,7 @@ const Contact = () => {
     if(validator.isEmpty(MessageContent)) {
       toast({
           title: 'Message field is empty.',
-          status: 'success',
+          status: 'warning',
           duration: 3000,
           isClosable: true,
         });
