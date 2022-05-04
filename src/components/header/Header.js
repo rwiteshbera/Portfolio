@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react';
 import RBLogo from '../images/rb.png';
 import './Header.css';
-import ButtonList from './ButtonList';
+import ButtonList from './buttonList/ButtonList';
 import MobileMenu from './mobileMenu/MobileMenu';
 
 const Header = () => {
@@ -24,8 +24,8 @@ const Header = () => {
             borderRadius="full"
             src={RBLogo}
             className="myLogo"
-            mt={['4','4','4','3']}
-            ml={['1','1','2','2']}
+            mt={['3','4','4','4']}
+            ml={['1','1','1','2']}
           ></Image>
           <span className="spacer"></span>
           <MobileMenu/>

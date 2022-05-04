@@ -7,6 +7,61 @@
   cursor: pointer;
 }
 
+.button_stack button{
+  margin-right: 0.4em;
+  font-size: 1em;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.2em 1em;
+  border: hidden;
+  border-radius: 2px;
+  position: relative;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* color: #FF0072; */
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  z-index: 1;
+ }
+ 
+ .button_stack button:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #FF0072;
+  z-index: -1;
+ }
+ 
+ .button_stack button:hover, .button_stack button:focus {
+  color: white;
+ }
+ 
+ .button_stack button:hover:before, .button_stack button:focus:before {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+ }
+ 
+ .button_stack button:active {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+ }
+
+
 /* Animation for smaller screen  */
 @media only screen and (max-width: 768px) {
   .myLogo {
@@ -33,7 +88,7 @@
   }
 
   .spacer{
-    width: 50vw;
+    width: 55vw;
   }
 
 }
@@ -47,7 +102,7 @@
     margin-right: 5px;
   }
   .spacer{
-    width: 50vw;
+    width: 65vw;
   }
 
 }

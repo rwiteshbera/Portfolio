@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   HStack,
-  Button,
   Link as LinkChakra,
 } from '@chakra-ui/react';
 
@@ -10,20 +9,20 @@ import { Link } from 'react-router-dom';
 const ButtonList = () => {
   return (
     <div className="button_list">
-      <HStack mt="4" mr="2">
+      <HStack mt="4" mr="2" className='button_stack'>
         <Link to="/">
-          <Button colorScheme="pink">Home</Button>
+          <button>Home</button>
         </Link>
         <Link to="/projects">
-          <Button colorScheme="pink">Projects</Button>
+          <button>Projects</button>
         </Link>
         <LinkChakra href="https://rwiteshbera.me/" isExternal>
           {' '}
-          <Button colorScheme="pink">Blogs</Button>
+          <button>Blogs</button>
         </LinkChakra>
-        <Button colorScheme="pink">Resume</Button>
+        <button>Resume</button>
         <Link to="/contact">
-          <Button colorScheme="pink">Contact</Button>
+          <button>Contact</button>
         </Link>
       </HStack>
     </div>
