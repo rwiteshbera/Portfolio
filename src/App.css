@@ -8,6 +8,6 @@ body{
     color: white;
     overflow-x:hidden;
     background-color: "rgb(28,28,28)" !important;
-    /* background-color: rgb(31, 31, 31) !important;
-    background-size: cover m !important; */
+    height: 100vh;
+    width: 100vw;
 }
