@@ -155,14 +155,6 @@ const Skills = () => {
               />
               <Text>Linux</Text>
             </GridItem>
-            <GridItem>
-              <Image id='skills_grid_item'
-                w={["10","12","14","16"]}
-                mb="2"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
-              />
-              <Text>Heroku</Text>
-            </GridItem>
           </Grid>
         </Center>
       </Box>
