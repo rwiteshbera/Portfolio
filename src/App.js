@@ -16,7 +16,7 @@ function App() {
   
   return (
     <ChakraProvider theme={theme}>
-      <VStack bg="brand.100">
+      <VStack backgroundColor="brand.300">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
