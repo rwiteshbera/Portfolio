@@ -1,5 +1,4 @@
-import { Box, Center } from '@chakra-ui/react';
-import axios from 'axios';
+import {Center } from '@chakra-ui/react';
 import React from 'react';
 import './Footer.css';
 
