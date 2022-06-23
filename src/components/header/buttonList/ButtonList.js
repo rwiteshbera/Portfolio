@@ -1,11 +1,10 @@
 import React from 'react';
-import { HStack, Link as LinkChakra, useToast } from '@chakra-ui/react';
+import { HStack, Link as LinkChakra} from '@chakra-ui/react';
 
 import { Link } from 'react-router-dom';
+import resumePath from "../resume/Resume.pdf";
 
 const ButtonList = () => {
-  const toast = useToast();
-
   return (
     <div className="button_list">
       <HStack mt="4" mr="2" className="button_stack">
@@ -19,18 +18,7 @@ const ButtonList = () => {
           {' '}
           <button>Blogs</button>
         </LinkChakra>
-        <button
-          onClick={() => {
-            toast({
-              title: 'Resume will be available soon.',
-              status: 'success',
-              duration: 7000,
-              isClosable: true,
-            });
-          }}
-        >
-          Resume
-        </button>
+        <a href={resumePath} download="Rwitesh_Bera_Resume.pdf" target="_blank" rel='noreferrer'><button>Resume</button></a>
         <Link to="/contact">
           <button>Contact</button>
         </Link>
