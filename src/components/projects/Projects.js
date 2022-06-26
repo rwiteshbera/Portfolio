@@ -8,6 +8,7 @@ import './projects.css';
 import yearnQuest_Img from "./Project_Images/yearnquest.jpg";
 import worldClone_Img from "./Project_Images/worldclone.jpg";
 import cureConnect_Img from "./Project_Images/cureconnect.jpg";
+import decentMail_Img from "./Project_Images/decentmail.png";
 import miniUrl_Img from "./Project_Images/miniurl.jpg";
 
 const Projects = () => {
@@ -19,11 +20,13 @@ const Projects = () => {
         </Text>"center"
         <Center w="100vw">
           <Grid className='projects_grid' m="10">
-            <Link href="https://github.com/rwiteshbera/Wordle-Clone" isExternal>
+           
+
+          <Link href="https://github.com/rwiteshbera/Hacking-Heist-2.0__Decent_mail" isExternal>
               <GridItem>
                 <ProjectCard
-                  imgSrc={worldClone_Img}
-                  name="Wordle Clone"
+                  imgSrc={decentMail_Img}
+                  name="Decent Mail"
                 />
               </GridItem>
             </Link>
@@ -48,6 +51,17 @@ const Projects = () => {
                 />
               </GridItem>
             </Link>
+
+            <Link href="https://github.com/rwiteshbera/Wordle-Clone" isExternal>
+              <GridItem>
+                <ProjectCard
+                  imgSrc={worldClone_Img}
+                  name="Wordle Clone"
+                />
+              </GridItem>
+            </Link>
+
+
             <Link
               href="https://github.com/rwiteshbera/URL-Shortener"
               isExternal
