@@ -3,7 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="./rb.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./rb.png" type="image/x-icon" />
+
+    <meta name="title" content="Rwitesh Bera" />
+    <meta
+      name="description"
+      content="Hi, There! I'm Rwitesh Bera, A Full Stack Developer, pursuing B.Tech. in Computer Science and Engineering at Academy of Technology, Kolkata, India. "
+    />
+    <meta
+      name="keywords"
+      content="rwitesh, rwiteshbera, Rwitesh,Rwitesh Bera, Portfolio, portfolio"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+
     <title>Rwitesh Bera</title>
   </head>
 
@@ -11,39 +25,37 @@
     <div id="root"></div>
   </body>
 
- 
   <!-- On Click Animation Effect on 'Rwitesh Bera' -->
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
-  </script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
-  
   <script>
-    $(document).ready(function(){
-  $('#text-drop').mouseleave(function(){
-    $(this).removeClass('clicked');
-  }).click(function(){
-    $(this).addClass('clicked').html($(this).html());
-  });
-});
+    $(document).ready(function () {
+      $('#text-drop')
+        .mouseleave(function () {
+          $(this).removeClass('clicked');
+        })
+        .click(function () {
+          $(this).addClass('clicked').html($(this).html());
+        });
+    });
   </script>
-
 
   <!-- chatwoot widget Script  -->
   <script>
-    (function(d,t) {
-      var BASE_URL="https://app.chatwoot.com";
-      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=BASE_URL+"/packs/js/sdk.js";
+    (function (d, t) {
+      var BASE_URL = 'https://app.chatwoot.com';
+      var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + '/packs/js/sdk.js';
       g.defer = true;
       g.async = true;
-      s.parentNode.insertBefore(g,s);
-      g.onload=function(){
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
         window.chatwootSDK.run({
           websiteToken: 'mV2aNR7anKDHHAiygSVcdK3L',
-          baseUrl: BASE_URL
-        })
-      }
-    })(document,"script");
+          baseUrl: BASE_URL,
+        });
+      };
+    })(document, 'script');
   </script>
-  
 </html>
