@@ -1,7 +1,6 @@
 import React from 'react';
 import { Flex, IconButton, Link } from '@chakra-ui/react';
 import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import {SiDevpost} from "react-icons/si";
 
 import './Socials.css';
 
@@ -48,17 +47,6 @@ const Socials = () => {
         <Link href="https://www.instagram.com/rwiteshbera/" isExternal>
           <IconButton
             icon={<FaInstagram />}
-            isRound="true"
-            _hover={{
-              background: 'black',
-              color: 'white',
-              border: '2px solid white',
-            }}
-          ></IconButton>
-        </Link>
-        <Link href="https://devpost.com/rwiteshbera" isExternal>
-          <IconButton
-            icon={<SiDevpost />}
             isRound="true"
             _hover={{
               background: 'black',
