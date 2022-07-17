@@ -35,9 +35,7 @@ const About = () => {
             at <span id="name">Academy of Technology</span>, Kolkata, India. I
             love to build cool projects using frameworks I know. Whenever I
             build or learn something new, I share it with other people on
-            Linkedin and Twitter. Recently, I have started learning Blockchain
-            Development. I believe blockchain will shape the future of the
-            Internet.
+            Linkedin and Twitter.
           </p>
           <br />
           <p>
