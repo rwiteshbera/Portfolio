@@ -40,7 +40,7 @@ const MobileMenu = () => {
           <Link to="/projects">
             <MenuItem _hover={{bg:"whitesmoke", color:"black"}}> Projects</MenuItem>
           </Link>
-          <LinkChakra href="https://rwiteshbera.me/" isExternal>
+          <LinkChakra href="https://rwiteshbera.hashnode.dev/" isExternal>
             <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Blogs</MenuItem>
           </LinkChakra>
           <LinkChakra href={resumePath} download="Rwitesh_Bera_Resume.pdf">
