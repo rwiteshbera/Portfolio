@@ -14,7 +14,7 @@ const ButtonList = () => {
         <Link to="/projects">
           <button>Projects</button>
         </Link>
-        <LinkChakra href="https://rwiteshbera.me/" isExternal>
+        <LinkChakra href="https://rwiteshbera.hashnode.dev/" isExternal>
           {' '}
           <button>Blogs</button>
         </LinkChakra>
