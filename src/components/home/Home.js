@@ -4,7 +4,7 @@ import profilePic from '../images/profile-pic.png';
 import Socials from './socials/Socials';
 import About from './about/About';
 import Graph from './github_graph/Graph';
-import Skills from './tools_tech/Skills';
+
 const Home = () => {
   return (
     <>
@@ -25,7 +25,6 @@ const Home = () => {
         </Container>
       </Flex>
       <Graph/>
-      <Skills />
     </>
   );
 };

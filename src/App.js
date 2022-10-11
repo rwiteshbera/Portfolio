@@ -9,7 +9,7 @@ import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 
-import {theme} from "./Theme";
+import {theme} from "./Theme/Theme";
 import Footer from './components/footer/Footer';
 
 function App() {

@@ -10,7 +10,6 @@ import {
 import { GiHamburgerMenu } from 'react-icons/gi';
 import './MobileMenu.css';
 import { Link } from 'react-router-dom';
-import resumePath from "../resume/Resume.pdf";
 
 const MobileMenu = () => {
   return (
@@ -43,7 +42,7 @@ const MobileMenu = () => {
           <LinkChakra href="https://rwiteshbera.hashnode.dev/" isExternal>
             <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Blogs</MenuItem>
           </LinkChakra>
-          <LinkChakra href={resumePath} download="Rwitesh_Bera_Resume.pdf">
+          <LinkChakra href="https://drive.google.com/drive/folders/1AzqQ7oB0bFfn6bPwvj6LXnzoaJWQWVg6?usp=sharing" target="_blank">
             <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Resume</MenuItem>
           </LinkChakra>
           <Link to="/contact">

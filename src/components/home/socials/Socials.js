@@ -9,7 +9,7 @@ const Socials = () => {
     <>
       <Flex
         justify={['center', 'center', 'center', 'left']}
-        gap={['2', '3', '4', '4']}
+        gap={['2', '3', '4', '4']} 
       >
         <Link href="https://www.linkedin.com/in/rwitesh-bera/" isExternal>
           <IconButton
