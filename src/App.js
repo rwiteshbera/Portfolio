@@ -7,7 +7,6 @@ import "animate.css"
 
 import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
 
 import {theme} from "./Theme/Theme";
 import Footer from './components/footer/Footer';
@@ -21,7 +20,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer/>
       </VStack>

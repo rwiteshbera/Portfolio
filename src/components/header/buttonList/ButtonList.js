@@ -18,9 +18,6 @@ const ButtonList = () => {
           <button>Blogs</button>
         </LinkChakra>
         <a href="https://drive.google.com/drive/folders/1AzqQ7oB0bFfn6bPwvj6LXnzoaJWQWVg6?usp=sharing" target="_blank" rel='noreferrer'><button>Resume</button></a>
-        <Link to="/contact">
-          <button>Contact</button>
-        </Link>
       </HStack>
     </div>
   );

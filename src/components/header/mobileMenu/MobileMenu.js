@@ -45,9 +45,6 @@ const MobileMenu = () => {
           <LinkChakra href="https://drive.google.com/drive/folders/1AzqQ7oB0bFfn6bPwvj6LXnzoaJWQWVg6?usp=sharing" target="_blank">
             <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Resume</MenuItem>
           </LinkChakra>
-          <Link to="/contact">
-            <MenuItem _hover={{bg:"whitesmoke", color:"black"}}>Contact</MenuItem>
-          </Link>
         </MenuList>
       </Menu>
     </div>
