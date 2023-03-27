@@ -52,7 +52,22 @@ export default function Header({}: Props) {
         />
       </motion.div>
 
-      <div className="flex flex-row items-center text-gray-300 cursor-pointer">
+      <motion.div 
+      initial={{
+        x: -500,
+        opacity: 0,
+        scale: 0.5,
+      }}
+      animate={{
+        x: 0,
+        opacity: 1,
+        scale: 1,
+      }}
+      transition={{
+        duration: 1.5
+      }}
+
+      className="flex flex-row items-center text-gray-300 cursor-pointer">
         <Link href="mailto:rwiteshbera@gmail.com" legacyBehavior>
           <SocialIcon
             className="cursor-pointer"
@@ -66,7 +81,7 @@ export default function Header({}: Props) {
           Get in touch
         </p>
         </Link>
-      </div>
+      </motion.div>
     </header>
   );
 }
