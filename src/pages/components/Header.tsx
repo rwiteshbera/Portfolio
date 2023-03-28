@@ -20,9 +20,8 @@ export default function Header({}: Props) {
           scale: 1,
         }}
         transition={{
-          duration: 1.5
+          duration: 1.5,
         }}
-
         className="flex flex-row justify-start m-2 gap-2"
       >
         {/* Social Icon  */}
@@ -52,34 +51,33 @@ export default function Header({}: Props) {
         />
       </motion.div>
 
-      <motion.div 
-      initial={{
-        x: 500,
-        opacity: 0,
-        scale: 0.5,
-      }}
-      animate={{
-        x: 0,
-        opacity: 1,
-        scale: 1,
-      }}
-      transition={{
-        duration: 1.5
-      }}
-
-      className="flex flex-row items-center text-gray-300 cursor-pointer">
-        <Link href="mailto:rwiteshbera@gmail.com" legacyBehavior>
-          <SocialIcon
-            className="cursor-pointer"
-            network="email"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-        </Link>
+      <motion.div
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+        className="flex flex-row items-center text-gray-300 cursor-pointer"
+      >
+        <SocialIcon
+          className="cursor-pointer"
+          network="email"
+          fgColor="gray"
+          bgColor="transparent"
+          url="mailto:rwiteshbera@gmail.com"
+        />
         <Link href="mailto:rwiteshbera@gmail.com">
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400 pl-2">
-          Get in touch
-        </p>
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400 pl-2">
+            Get in touch
+          </p>
         </Link>
       </motion.div>
     </header>
