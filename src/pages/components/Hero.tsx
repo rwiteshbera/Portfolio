@@ -1,7 +1,8 @@
+import Image from "next/image";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundWave from "./BackgroundWave";
-
+import profilePicture from "../assets/profile.jpg";
 type Props = {};
 
 function Hero({}: Props) {
@@ -16,9 +17,16 @@ function Hero({}: Props) {
     delaySpeed: 1500, // Millisecond
   });
   return (
-    <div className="h-screen w-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen w-screen flex flex-col space-y-8 items-center my-[20vh] text-center">
       <BackgroundWave />
-      <h1>
+      <Image
+        src={profilePicture}
+        alt="Profile Image"
+        width={200}
+        height={200}
+        className="rounded-full"
+      />
+      <h1 className="font-sans text-2xl">
         <span>{text}</span>
         <Cursor cursorColor="white" cursorStyle="█" />
       </h1>
