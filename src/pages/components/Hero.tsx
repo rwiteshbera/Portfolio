@@ -9,7 +9,6 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, This is Rwitesh Bera",
-      "Full Stack Developer",
       "Guy who prefers tea over coffee",
       "But Loves to explore new tech",
     ],
@@ -24,12 +23,15 @@ function Hero({}: Props) {
         alt="Profile Image"
         width={200}
         height={200}
-        className="rounded-full"
+        className="rounded-full relative mx-auto object-cover"
       />
-      <h1 className="font-sans text-2xl">
+      <div>
+        <h2 className="text-sm uppercase text-gray-400 pb-3 tracking-[10px]">Full Stack Developer</h2>
+      <h1 className="font-sans font-semibold 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl text-3xl">
         <span>{text}</span>
         <Cursor cursorColor="white" cursorStyle="█" />
       </h1>
+      </div>
     </div>
   );
 }
