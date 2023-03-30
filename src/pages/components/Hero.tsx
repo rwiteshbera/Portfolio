@@ -17,7 +17,7 @@ function Hero({}: Props) {
     delaySpeed: 1500, // Millisecond
   });
   return (
-    <div className="h-[100vh] w-screen flex flex-col space-y-8 items-center my-[12vh] text-center">
+    <div className="h-screen w-screen flex flex-col space-y-8 items-center py-40 text-center">
       <BackgroundWave />
       <Link href={"/"}>
       <Image
@@ -41,10 +41,10 @@ function Hero({}: Props) {
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="https://github.com/rwiteshbera">
+          <Link href="https://github.com/rwiteshbera?tab=repositories" target="_blank">
             <button className="heroButton">Projects</button>
           </Link>
-          <Link href="https://blog.rwiteshbera.com">
+          <Link href="https://blog.rwiteshbera.com" target="_blank">
             <button className="heroButton">Blogs</button>
           </Link>
         </div>

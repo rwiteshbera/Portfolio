@@ -1,18 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
-import image1 from "../assets/htm3.jpg";
 import Image from "next/image";
 
+import image1 from "../assets/htm3.jpg";
+import uparrow from "../assets/up_arrow.svg";
 type Props = {};
 
 function About({}: Props) {
   return (
-    <motion.div className="flex flex-col relative h-screen text-center md:text-left md:flex-row justify-evenly items-center w-2/3 mx-auto -mt-[20rem]">
-      <h3 className="uppercase tracking-[20px] text-gray-300 text-2xl font-semibold -mb-[64px]">
+    <div className="h-screen w-screen pt-[7rem]">
+      <h3 className="uppercase tracking-[20px] text-gray-300 text-2xl font-semibold text-center">
         About
       </h3>
-      <motion.div
-        className="mx-10 w-[60vw]"
+      <div className="flex flex-row justify-center mt-10 flex-wrap ">
+        <motion.div
         initial={{
           x: -500,
           opacity: 0,
@@ -26,15 +27,10 @@ function About({}: Props) {
         transition={{
           duration: 1.2,
         }}
-        
-      >
-        <Image
-          src={image1}
-          alt="hack_the_moutain3.0_in_Delhi_NCR"
-        />
-      </motion.div>
-      <motion.div
-        className=""
+        >
+          <Image src={image1} alt="image" className="" width={210} />
+        </motion.div>
+        <motion.div className="w-max sm:w-2/3 md:w-2/3 lg:w-1/3 xl:w-1/3 2xl:w-1/2 px-14  pt-5 my-auto"
         initial={{
           x: 500,
           opacity: 0,
@@ -46,14 +42,16 @@ function About({}: Props) {
         transition={{
           duration: 1.2,
         }}
-      >
-        <div className="text-xl xl:text-2xl lg-text-2xl md:text-xl sm:text-xl text-justify -mt-12 md:mt-0 lg:mt-0 xl:mt-0">
-        <h4 >
-        Full Stack web developer from India with experience in different technologies including React, NodeJS, Golang, Docker, Postgres, MongoDB etc. I have also worked on blockchain projects and have won numerous hackathons.
-        </h4>
-        </div>
-      </motion.div>
-    </motion.div>
+        >
+          <h4 className="text-base 2xl:text-2xl xl:text-2xl lg:text-xl md:text-xl sm:text-base text-justify">
+            Full Stack web developer from India with experience in different
+            technologies including React, NodeJS, Golang, Docker, Postgres,
+            MongoDB etc. I have also worked on blockchain projects and have won
+            numerous hackathons.
+          </h4>
+        </motion.div>
+      </div>
+    </div>
   );
 }
 
