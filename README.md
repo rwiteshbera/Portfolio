@@ -10,3 +10,4 @@ Exteranl npm packages:
 3. autoprefixer
 4. framer-motion
 5. react-social-icons
+6. sharp
