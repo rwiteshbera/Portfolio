@@ -45,7 +45,7 @@ function Hero({}: Props) {
           <Link href="https://blog.rwiteshbera.com" target="_blank">
             <button className="heroButton">Blogs</button>
           </Link>
-          <Link href="/Resume.pdf" target="_blank">
+          <Link href="https://docs.google.com/document/d/1azgsZru43D43HkLiz5UYPBIOeFd43EmmsppyYbSHhc0/edit?usp=sharing" target="_blank">
             <button className="heroButton">Resume</button>
           </Link>
         </div>
