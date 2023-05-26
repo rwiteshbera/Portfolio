@@ -74,8 +74,8 @@ export default function Header({}: Props) {
           bgColor="transparent"
           url="mailto:rwiteshbera@gmail.com"
         />
-        <Link href="mailto:rwiteshbera@gmail.com">
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400 pl-2">
+        <Link href="https://mail.google.com/mail/u/0/?to=rwiteshbera@gmail.com&fs=1&tf=cm" target="_blank" className="uppercase md:hidden sm:hidden xsm:hidden text-sm text-gray-400 pr-2 mr-2"> 
+          <p>
             Get in touch
           </p>
         </Link>

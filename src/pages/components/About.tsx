@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 import image1 from "../assets/htm3.jpg";
-import uparrow from "../assets/up_arrow.svg";
+
 type Props = {};
 
 function About({}: Props) {
   return (
-    <div className="h-screen w-screen pt-[7rem]">
+    <div className="h-screen w-screen py-32">
       <h3 className="uppercase tracking-[20px] text-gray-300 text-2xl font-semibold text-center">
         About
       </h3>
-      <div className="flex flex-row justify-center mt-10 flex-wrap ">
+      <div className="flex flex-row justify-center mt-6 flex-wrap">
         <motion.div
         initial={{
           x: -500,
@@ -28,9 +28,9 @@ function About({}: Props) {
           duration: 1.2,
         }}
         >
-          <Image src={image1} alt="image" className="" width={210} />
+          <Image src={image1} alt="image" className="h-80 md:h-72 sm:h-72 xsm:h-72  w-auto" />
         </motion.div>
-        <motion.div className="w-max sm:w-2/3 md:w-2/3 lg:w-1/3 xl:w-1/3 2xl:w-1/2 px-14  pt-5 my-auto"
+        <motion.div className="w-max sm:w-2/3 md:w-2/3 lg:w-1/3 xl:w-1/3 2xl:w-1/2 px-10  pt-5 my-auto"
         initial={{
           x: 500,
           opacity: 0,
@@ -43,11 +43,8 @@ function About({}: Props) {
           duration: 1.2,
         }}
         >
-          <h4 className="text-base 2xl:text-2xl xl:text-2xl lg:text-xl md:text-xl sm:text-base text-justify">
-            Full Stack web developer from India with experience in different
-            technologies including React, NodeJS, Golang, Docker, Postgres,
-            MongoDB etc. I have also worked on blockchain projects and have won
-            numerous hackathons.
+          <h4 className="about text-base 2xl:text-xl xl:text-2xl lg:text-xl md:text-base sm:text-base">
+          I am an undergraduate student pursuing Computer Science & Engineering in India with proficiency in frontend and backend development. With a strong commitment to continuous learning, I consistently update my knowledge to stay up-to-date with the latest industry trends. I have hands-on experience with blockchain projects and successful hackathon participation. Currently, my primary focus is on enhancing my proficiency in DevOps practices. I eagerly look forward to the exciting possibilities that the future holds for me.
           </h4>
         </motion.div>
       </div>

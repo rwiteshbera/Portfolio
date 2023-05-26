@@ -4,6 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundWave from "./BackgroundWave";
 import profilePicture from "../assets/profile.jpg";
 import Link from "next/link";
+
 type Props = {};
 
 function Hero({}: Props) {
@@ -17,7 +18,7 @@ function Hero({}: Props) {
     delaySpeed: 1500, // Millisecond
   });
   return (
-    <div className="h-screen w-screen flex flex-col space-y-8 items-center py-40 text-center">
+    <div className="h-screen w-screen flex flex-col space-y-8 items-center py-40 text-center ">
       <BackgroundWave />
       <Link href={"/"}>
       <Image
@@ -29,8 +30,8 @@ function Hero({}: Props) {
       />
       </Link>
       <div>
-        <h2 className="text-sm uppercase text-gray-400 pb-3 tracking-[10px]">
-          Full Stack Developer
+        <h2 className="text-sm uppercase text-gray-400 pb-3 tracking-[5px]">
+          Go Developer | Full Stack 
         </h2>
         <h1 className="font-sans font-semibold 2xl:text-5xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl text-3xl h-16">
           <span>{text}</span>
@@ -38,14 +39,14 @@ function Hero({}: Props) {
         </h1>
 
         <div className="relative mt-3">
-          <Link href="#about">
-            <button className="heroButton">About</button>
-          </Link>
           <Link href="https://github.com/rwiteshbera?tab=repositories" target="_blank">
             <button className="heroButton">Projects</button>
           </Link>
           <Link href="https://blog.rwiteshbera.com" target="_blank">
             <button className="heroButton">Blogs</button>
+          </Link>
+          <Link href="/Resume.pdf" target="_blank">
+            <button className="heroButton">Resume</button>
           </Link>
         </div>
       </div>
