@@ -9,7 +9,6 @@ Exteranl npm packages:
 2. postcss 
 3. autoprefixer
 4. framer-motion
-5. react-social-icons
-6. sharp
+5. @vercel/analytics
 
 SVG From: https://www.svgrepo.com/

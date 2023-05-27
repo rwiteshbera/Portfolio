@@ -71,6 +71,11 @@ export default function Header({}: Props) {
           className="hidden md:inline-flex text-sm text-gray-400 gap-2"
         >
           <p>rwiteshbera@gmail.com</p>
+        </Link>
+        <Link
+          href="mailto:rwiteshbera@gmail.com"
+          className="mx-4 md:mx-0"
+        >
           <Image src={emailSVG} alt="gmail" height={24} />
         </Link>
         <Link

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 import image1 from "../assets/htm3.jpg";
-import { useRouter } from "next/router";
+
 
 type Props = {};
 
