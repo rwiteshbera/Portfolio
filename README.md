@@ -11,3 +11,5 @@ Exteranl npm packages:
 4. framer-motion
 5. react-social-icons
 6. sharp
+
+SVG From: https://www.svgrepo.com/
