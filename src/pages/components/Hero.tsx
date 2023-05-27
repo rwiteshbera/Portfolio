@@ -18,7 +18,7 @@ function Hero({}: Props) {
     delaySpeed: 1500, // Millisecond
   });
   return (
-    <div className="h-screen w-screen flex flex-col space-y-8 items-center py-40 text-center ">
+    <div className="h-screen w-screen flex flex-col space-y-6 items-center pt-40 text-center ">
       <BackgroundWave />
       <Link href={"/"}>
       <Image
