@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "name": "EventHub",
+      "description": "Microservices project that simplifies event management. It's a platform where you can easily organize and manage upcoming virtual or in-person meetups, conferences, and competitions.",
+      "tech": [
+        "Go",
+        "Redis",
+        "MongoDB",
+        "Postgres",
+        "Docker",
+        "RabbitMQ"
+      ],
+      "link": "https://github.com/rwiteshbera/EventHub"
+    },
+    {
+      "name": "PixBy",
+      "description": "A Modern Full Stack Social Media App where users can connect with other people and share their photos.",
+      "tech": [
+        "React",
+        "ChakraUI",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Cloudinary",
+        "Docker"
+      ],
+      "link": "https://github.com/rwiteshbera/Pixby"
+    },
+    {
+      "name": "Hyperion",
+      "description": "Blockchain project aims to implement the core functionality of a blockchain, including the ability to add new blocks to the chain, verify the integrity of the chain and secure the data stored in the blocks using cryptographic hashes.",
+      "tech": [
+        "Go"
+      ],
+      "link": "https://github.com/rwiteshbera/Hyperion"
+    },
+    {
+      "name": "Decent Mail",
+      "description": "Decent Mail is a blockchain-powered email service enabling users to securely exchange emails through smart contracts, using peer-to-peer interactions and granting users full control over their data and information.",
+      "tech": [
+        "React",
+        "Bootstrap",
+        "Ether.js",
+        "Solidity",
+        "Polygon",
+        "IPFS",
+        "Alchemy"
+      ],
+      "link": "https://github.com/rwiteshbera/Hacking-Heist-2.0__Decent_mail"
+    },
+    {
+      "name": "Hype The Hike",
+      "description": "Hype The Hike is an innovative project utilizing NFT technology to enhance the functionality and security of event tickets, empowering community-driven tourism and preserving valuable memories while leveraging blockchain-based authentication and storage systems.",
+      "tech": [
+        "React",
+        "LightHouse",
+        "Arcana",
+        "ThirdWeb",
+        "Polygon"
+      ],
+      "link": "https://github.com/rwiteshbera/Hype-The-Hike"
+    }
+  ]
+}

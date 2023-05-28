@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects/Projects";
+import Blogs from "./components/Blogs/Blogs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,6 +48,16 @@ export default function Home() {
       {/* About  */}
       <section id="about">
         <About />
+      </section>
+
+      {/* Projects  */}
+      <section id="projects">
+        <Projects />
+      </section>
+
+      {/* Blogs  */}
+      <section id="blogs">
+        <Blogs />
       </section>
 
       {/* Footer  */}

@@ -11,7 +11,7 @@ type Props = {};
 // 80 - 60
 function About({}: Props) {
   return (
-    <div className="h-screen w-screen pt-10">
+    <div className="w-screen pt-10">
       <h3 className="uppercase tracking-[20px] text-gray-300 text-2xl font-semibold text-center pb-5">
         About
       </h3>
@@ -21,7 +21,7 @@ function About({}: Props) {
             src={image1}
             alt="hack the mountain picture"
             className="md:w-[30vw] md:px-0 px-12 py-6"
-            loading="lazy"
+            priority
           />
         </div>
         <div className="flex md:w-[40vw] px-8">
