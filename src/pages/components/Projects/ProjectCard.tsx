@@ -12,7 +12,7 @@ const ProjectCard = ({ project }: Props) => {
     <div className="border-4 rounded-xl border-gray-600 p-5 w-96 bg-black">
       <div className="flex flex-row justify-center gap-2">
         <h1 className="text-center text-xl font-semibold">{project?.name}</h1>
-        <Link href={project?.link} target="_blank">
+        <Link href={project?.link ?? '/'} target="_blank">
           <Image src={linkSVG} alt="github link" height={24} />
         </Link>
       </div>
