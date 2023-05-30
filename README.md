@@ -10,5 +10,6 @@ Exteranl npm packages:
 3. autoprefixer
 4. framer-motion
 5. @vercel/analytics
+6. SWR [React Hooks for Data Fetching]
 
 SVG From: https://www.svgrepo.com/
