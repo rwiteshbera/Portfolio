@@ -36,6 +36,14 @@
       "link": "https://github.com/rwiteshbera/Hyperion"
     },
     {
+      "name": "URL Shortener",
+      "description": "Developed a URL shortener project with a focus on creating concise and user-friendly URLs, while also implementing a Redis-based rate-limiting feature for enhanced security and scalability.",
+      "tech": [
+        "Go", "Redis", "Docker"
+      ],
+      "link": "https://github.com/rwiteshbera/URL-Shortener-Go"
+    },
+    {
       "name": "Decent Mail",
       "description": "Decent Mail is a blockchain-powered email service enabling users to securely exchange emails through smart contracts, using peer-to-peer interactions and granting users full control over their data and information.",
       "tech": [

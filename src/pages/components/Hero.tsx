@@ -39,14 +39,14 @@ function Hero({}: Props) {
         </h1>
 
         <div className="relative mt-3">
+          <Link href="#about">
+            <button className="heroButton">About</button>
+          </Link>
           <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
           <Link href="#blogs">
             <button className="heroButton">Blogs</button>
-          </Link>
-          <Link href="/resume.pdf" target="_blank">
-            <button className="heroButton">Resume</button>
           </Link>
         </div>
       </div>
