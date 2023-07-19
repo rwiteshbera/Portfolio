@@ -8,6 +8,7 @@ import githubSVG from "../assets/github.svg";
 import instagramSVG from "../assets/instagram.svg";
 import devSVG from "../assets/dev.svg";
 import emailSVG from "../assets/email.svg";
+import threadsSVG from "../assets/threads.svg";
 
 import Image from "next/image";
 
@@ -15,7 +16,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="md:pr-3 flex justify-between max-w-7xl mx-auto z-10">
+    <header className="md:pr-3 flex justify-between max-w-7xl mx-auto z-10 select-none">
       <motion.div
         initial={{
           x: -500,
@@ -33,20 +34,20 @@ export default function Header({}: Props) {
         className="flex flex-row justify-start m-3 gap-8"
       >
         {/* Social Icon  */}
-        <Link href="https://twitter.com/RwiteshBera" target="_blank">
+        <Link className="hover:scale-150 ease-in duration-200" href="https://twitter.com/RwiteshBera" target="_blank">
           <Image src={twitterSVG} alt="twitter" height={24} />
         </Link>
-        <Link href="https://www.linkedin.com/in/rwitesh-bera/" target="_blank">
+        <Link className="hover:scale-150 ease-in duration-200"  href="https://www.linkedin.com/in/rwitesh-bera/" target="_blank">
           <Image src={linkedinSVG} alt="linkedin" height={24} />
         </Link>
-        <Link href="https://github.com/rwiteshbera" target="_blank">
+        <Link className="hover:scale-150 ease-in duration-200"  href="https://github.com/rwiteshbera" target="_blank">
           <Image src={githubSVG} alt="github" height={24} />
         </Link>
-        <Link href="https://www.instagram.com/rwiteshbera/" target="_blank">
+        <Link className="hover:scale-150 ease-in duration-200"  href="https://www.instagram.com/rwiteshbera/" target="_blank">
           <Image src={instagramSVG} alt="instagram" height={24} />
         </Link>
-        <Link href="https://dev.to/rwiteshbera" target="_blank">
-          <Image src={devSVG} alt="dev" height={24} />
+        <Link className="hover:scale-150 ease-in duration-200"  href="https://www.threads.net/@rwiteshbera" target="_blank">
+          <Image src={threadsSVG} alt="dev" height={24} />
         </Link>
       </motion.div>
 
@@ -76,10 +77,10 @@ export default function Header({}: Props) {
           href="mailto:rwiteshbera@gmail.com"
           className="mx-4 md:mx-0"
         >
-          <Image src={emailSVG} alt="gmail" height={24} />
+          <Image className="hover:scale-150 ease-in duration-200" src={emailSVG} alt="gmail" height={24} />
         </Link>
         <Link
-          href="https://mail.google.com/mail/u/0/?to=rwiteshbera@gmail.com&fs=1&tf=cm"
+          href="mailto:rwiteshbera@gmail.com"
           target="_blank"
           className="uppercase hidden md:inline-flex text-sm text-gray-400 pr-2 mr-2"
         >

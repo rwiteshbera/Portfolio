@@ -14,18 +14,18 @@
       "link": "https://github.com/rwiteshbera/EventHub"
     },
     {
-      "name": "PixBy",
-      "description": "A Modern Full Stack Social Media App where users can connect with other people and share their photos.",
+      "name": "StoryVerse",
+      "description": "A Modern Full Stack Social Media App that offers users the ability to connect, share photos with caption, and actively engage with other users' posts through interactive features such as follow, comments, and likes.",
       "tech": [
         "React",
-        "ChakraUI",
+        "Tailwind",
         "Node.js",
         "Express.js",
         "MongoDB",
         "Cloudinary",
         "Docker"
       ],
-      "link": "https://github.com/rwiteshbera/Pixby"
+      "link": "https://github.com/rwiteshbera/StoryVerse"
     },
     {
       "name": "Hyperion",
@@ -39,7 +39,9 @@
       "name": "URL Shortener",
       "description": "Developed a URL shortener project with a focus on creating concise and user-friendly URLs, while also implementing a Redis-based rate-limiting feature for enhanced security and scalability.",
       "tech": [
-        "Go", "Redis", "Docker"
+        "Go",
+        "Redis",
+        "Docker"
       ],
       "link": "https://github.com/rwiteshbera/URL-Shortener-Go"
     },

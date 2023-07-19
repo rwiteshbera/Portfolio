@@ -13,7 +13,7 @@ const Blogs = (props: Props) => {
   if (isLoading) return <div className="text-center">Loading...</div>;
 
   return (
-    <div className="w-screen mt-20">
+    <div className="w-screen mt-20 select-none">
       <h3 className="uppercase tracking-[20px] text-gray-300 text-2xl font-semibold text-center">
         Blogs
       </h3>

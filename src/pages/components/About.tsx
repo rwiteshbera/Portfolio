@@ -21,11 +21,12 @@ function About({}: Props) {
             src={image1}
             alt="hack the mountain picture"
             className="md:w-[30vw] md:px-0 px-12 py-6"
+            draggable="false"
             priority
           />
         </div>
-        <div className="flex md:w-[40vw] px-8">
-          <h4 className="2xl:text-lg text-base m-auto text-justify">
+        <div className="flex md:w-[40vw] md:px-4 px-8">
+          <h4 className="2xl:text-lg text-base m-auto text-justify indent-20">
             I am an undergraduate student pursuing Computer Science &
             Engineering from India with proficiency in frontend and backend
             development. I have a strong passion for learning and keeping up

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import useSWR from "swr";
+import useSWR from "swr/immutable";
 
 type Props = {};
 
