@@ -6,7 +6,6 @@ import twitterSVG from "../assets/twitter.svg";
 import linkedinSVG from "../assets/linkedin.svg";
 import githubSVG from "../assets/github.svg";
 import instagramSVG from "../assets/instagram.svg";
-import devSVG from "../assets/dev.svg";
 import emailSVG from "../assets/email.svg";
 import threadsSVG from "../assets/threads.svg";
 

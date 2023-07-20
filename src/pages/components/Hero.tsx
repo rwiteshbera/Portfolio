@@ -52,8 +52,8 @@ function Hero({}: Props) {
           <Link href="#blogs">
             <button className="heroButton">Blogs</button>
           </Link>
-          <Link href="https://t.me/rwiteshbera" target="_blank">
-            <button className="heroButton">Message</button>
+          <Link href="https://rwitesh.substack.com/" target="_blank">
+            <button className="heroButton">Newsletter</button>
           </Link>
         </div>
       </div>
