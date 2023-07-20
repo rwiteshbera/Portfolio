@@ -49,7 +49,7 @@ function Hero({}: Props) {
           <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
-          <Link href="#blogs">
+          <Link href="https://blog.rwiteshbera.com/" target="_blank">
             <button className="heroButton">Blogs</button>
           </Link>
           <Link href="https://rwitesh.substack.com/" target="_blank">

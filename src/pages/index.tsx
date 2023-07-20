@@ -4,8 +4,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects/Projects";
-import Blogs from "./components/Blogs/Blogs";
-
 
 export default function Home() {
   return (
@@ -51,11 +49,6 @@ export default function Home() {
       {/* Projects  */}
       <section id="projects">
         <Projects />
-      </section>
-
-      {/* Blogs  */}
-      <section id="blogs">
-        <Blogs />
       </section>
 
       {/* Footer  */}
