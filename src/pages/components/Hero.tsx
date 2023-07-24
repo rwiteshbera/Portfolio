@@ -52,9 +52,6 @@ function Hero({}: Props) {
           <Link href="https://blog.rwiteshbera.com/" target="_blank">
             <button className="heroButton">Blogs</button>
           </Link>
-          <Link href="https://rwitesh.substack.com/" target="_blank">
-            <button className="heroButton">Newsletter</button>
-          </Link>
         </div>
       </div>
     </div>
